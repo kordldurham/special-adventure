@@ -4,7 +4,7 @@ for (let i = 0; i < pets.length; i++) {
     html += `<h2>${pet.name}</h2>
         <h3>${pet.type} | ${pet.breed}</h3>
         <p>${pet.age}</p>
-        <img src="${pet.photo}" alt=${pet.breed}>
+        <img src="${pet.photo}" alt="${pet.breed}">
         `;
     document.querySelector(`main`).innerHTML = html;
 };
