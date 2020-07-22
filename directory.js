@@ -6,5 +6,5 @@ for (let i = 0; i < pets.length; i++) {
         <p>${pet.age}</p>
         <img src="${pet.photo}" alt=${pet.breed}>
         `;
-    document.querySelector(`main`).insertAdjacentHTML(`beforeend`, html);
+    document.querySelector(`main`).innerHTML = html;
 };
